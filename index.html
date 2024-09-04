@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게임메카</title>
+    <link rel="shortcut icon" href="img/favi-01.ico" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="css/main.css">    
+    <script src="js/jquery-3.7.1.js"></script>
+    <!-- swiper plugin js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js'></script>
+    <!-- 외부 js -->
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header-top">
+                <div class="center">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo-01.png" alt="logo"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="center">
+                    <div class="nav-area">
+                        <div class="menu-icon">
+                            <div class="menu-btn">
+                                <a href="#"><img src="img/2849812_menu_multimedia_bars_media_icon.svg" alt=""></a>
+                            </div>
+                            <div class="logo2">
+                                <a href="index.html">
+                                    <img src="img/logo/logo2-01.png" alt="logo2">
+                                </a>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">스토어</a></li>
+                                <li><a href="#">게임뉴스</a></li>
+                                <li><a href="#">커뮤니티</a></li>
+                                <li><a href="#">장비팁</a></li>
+                            </ul>
+                        </nav>
+                        <div class="member">
+                            <ul>
+                                <li><a href="#">LOGIN</a></li>
+                                <li><a href="#">SIGNUP</a></li>
+                                <li><a href="#">
+                                    <span class="search-icon"><img src="img/8666693_search_icon.svg" alt="search"></span>
+                                    <span class="close-icon"><img src="img/close.svg" alt="close"></span>
+                                </a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="s1">
+            <div class="center">
+                <div class="main">
+                    <div class="swiper mainSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a href="#">
+                                    <div class="img-box">
+                                        <img src="img/silde1.jpg" alt="silde1">
+                                        <!-- <p></p> -->
+                                    </div>
+                                    <div class="txt-box">
+                                        <h2>2023년 대히트친 인기 게임들</h2>
+                                        <p>이 게임은 레늄(Re), 알루미늄(Al)으로 만들어진 게 분명해. 왜냐면 이건 진짜(Real)이니까..</p>
+                                    </div>
+                                </a></div>
+                                <div class="swiper-slide"><a href="#">
+                                    <div class="img-box">
+                                        <img src="img/sild2.jpg" alt="silde2">
+                                        <!-- <p></p> -->
+                                    </div>
+                                    <div class="txt-box">
+                                        <h2>속보) 모 게임사에서 지금 파급 세일 중!</h2>
+                                        <p>난 삘이 찌르르 왔어. 다시는 이런 기회 없어. 최대 90% 할인.</p>
+                                    </div>
+                                </a></div>
+                                <div class="swiper-slide"><a href="#">
+                                    <div class="img-box">
+                                        <img src="img/silde3.jpg" alt="silde3">
+                                        <!-- <p></p> -->
+                                    </div><!-- swiper-wrapper3 -->
+                                    <div class="txt-box">
+                                        <h2>열대아 여름을 날려줄 공포게임 top8</h2>
+                                        <p>뭐 별거 아닌데? 오늘은 불 켜고 자야겠다..</p>
+                                    </div>
+                                </a></div>
+                                <div class="swiper-slide"><a href="#">
+                                    <div class="img-box">
+                                        <img src="img/slidee4.jpg" alt="silde4">
+                                        <!-- <p></p> -->
+                                    </div><!-- swiper-wrapper3 -->
+                                    <div class="txt-box">
+                                        <h2>출시 예정인 기대작들!</h2>
+                                        <p>출시일 다가와 Ah Oh Ay! 기쁨은 커져가 Ah Oh Ay! 설레는 기다림 Ah Oh Ay!</p>
+                                    </div>
+                                </a></div>
+                            </div><!-- swiper-wrapper3 -->
+                            <!-- swiper pagination -->
+                            <div class="swiper-pagination"></div>
+                            <!-- Swiper button -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        
+                    </div><!-- swiper mainSwiper -->
+                </div>
+            </div>
+        </section>
+        <section class="s2">
+            <div class="center">
+                <div class="title">
+                    <h1>추천 게임</h1>
+                    <a href="#">더보기 <i><img src="img/plus.svg" alt="plus"></i></a>
+                </div>
+                <div class="container">
+                     <!-- scrollTrigger의 pin 영역 -->
+                    <div class="left-con">
+                        <!-- css에서 photo에 hover하면 이미지가 커지는 애니메이션 -->
+                        <div class="photo pmain">
+                            <img src="img/diablo4.jpg" alt="diablo4">
+                        </div>
+                        <p>DIABLO 4</p>
+                    </div>
+              
+                    <div class="right-con">
+                        <!-- short 클래스는 높이: 300 -->
+                        <!-- long 클래스는 높이: 400 -->                
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/gta5.jpg" alt="gta5">
+                                </div>
+                                <p>GRAND THEFT AUTO 5</p>
+                            </a>    
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                        <img src="img/godofwar.jpg" alt="gow">
+                                </div>
+                                <p>GOD OF WAR RAGNAROK</p>
+                            </a>
+                        </div> 
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/rdr2.jpg" alt="rdr2">
+                                </div>
+                                <p>RAD DEAD REDEMPTION 2</p>
+                            </a>
+                        </div> 
+    
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/hogwarts.jpg" alt="hogwarts">
+                                </div>
+                                <p>HOGWARTS LEGACY</p>
+                            </a>
+                        </div> 
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/eldenging.jpg" alt="eldenging">
+                                </div>
+                                <p>ELDEN RING</p>
+                            </a>
+                        </div> 
+    
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/battle.jpg" alt="battle">
+                                </div>
+                                <p>BATTLEGROUNDS</p>
+                            </a>
+                        </div> 
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/blohazard.jpg" alt="blohazard">
+                                </div>
+                                <p>BOHAZARD RE:3</p>
+                            </a>
+                        </div> 
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/wukong.jpg" alt="wukong">
+                                </div>
+                                <p>검은 신화: 오공</p>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="center">
+                <div class="title">
+                    <h1>주요뉴스</h1>
+                    <a href="#">더보기 <i><img src="img/plus.svg" alt="plus"></i></a>
+                </div>
+                <div class="container">
+                    <div class="swiper gallerySlide">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/news1.jpg" alt="news1">
+                                </div>
+                                <p>프레디의 피자가게 10주년 기념작</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/news2.jpg" alt="news2">
+                                </div>
+                                <p>부정적인 감정을 직시하는 이야기 '뭉치'</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/news3.jpg" alt="news3">
+                                </div>
+                                <p>조폐공사, 2023 LoL 월드 챔피언십 T1 우승 기념메달 출시</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/news4.jpg" alt="news4">
+                                </div>
+                                <p>스몰더의 왕귀, 젠지의 16승 끊은 KT</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/news5.jpg" alt="news5">
+                                </div>
+                                <p>'인조이' 커스터미이징, 오는 21일 스팀에 공개!</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/news6.jpg" alt="news6">
+                                </div>
+                                <p>맥스 페인 1&2 리메이크, 본격적인 제작 단계 돌입?</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/news7.jpg" alt="news7">
+                                </div>
+                                <p>넥슨, 신작 4종 게임정보 공개에 전세계 게이머들 관심 폭발</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="s4">
+            <div class="cneter">
+                <div class="title">
+                    <h1>Hot 게임 커뮤니티</h1>
+                    <a href="#">더보기 <i><img src="img/plus.svg" alt="plus"></i></a>
+                </div>
+                <div class="container">
+                    <div class="swiper gallerySlide">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/cm1.jpg" alt="cm1">
+                                </div>
+                                <p>산나비 준장님 그려봤다</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/cm2.png" alt="cm2">
+                                </div>
+                                <p>고오쓰 검성갑옷 얻게 얻나요..</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/cm3.png" alt="cm3">
+                                </div>
+                                <p>친구랑 같이할 스팀게임 추천좀</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/cm4.jpg" alt="cm4">
+                                </div>
+                                <p>크아악 니케 신규일러 진심 존나이쁘다악</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/cm5.jpg" alt="cm5">
+                                </div>
+                                <p>문명 입문자들를 위한 꿀팁들</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/cm6.jpg" alt="cm6">
+                                </div>
+                                <p>검은신화오공 갑자기 ㅈㄴ 어려워짐ㅋㅋ;</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <div class="photo">
+                                    <img src="img/cm3.png" alt="cm7">
+                                </div>
+                                <p>요즘 롤 왤케 재미없냐?</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s5">
+            <div class="center">
+                <div class="title">
+                    <h1>장비정보 & 견적</h1>
+                    <a href="#">더보기 <i><img src="img/plus.svg" alt="plus"></i></a>
+                </div>
+                <div class="container">
+                    <!-- scrollTrigger의 pin 영역 -->
+                   <div class="left-con">
+                       <!-- css에서 photo에 hover하면 이미지가 커지는 애니메이션 -->
+                       <div class="photo pmain">
+                           <img src="img/j1.jpg" alt="diablo4">
+                       </div>
+                       <p>모든 게이머들의 로망, 게이밍룸! 가성비 있게 만들기</p>
+                   </div>
+             
+                   <div class="right-con">
+                        <!-- short 클래스는 높이: 300 -->
+                        <!-- long 클래스는 높이: 400 -->                
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/j2.jpg" alt="gta5">
+                                </div>
+                                <p>커브드 모니터와 평면 모니터, 무얼 사야할까?</p>
+                            </a>    
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                        <img src="img/j3.png" alt="j3">
+                                </div>
+                                <p>플스를 샀다면 이것도 사야한다고?</p>
+                            </a>
+                        </div> 
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/j4.jpg" alt="rdr2">
+                                </div>
+                                <p>마우스패드도 장비다..!</p>
+                            </a>
+                        </div> 
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/j5.jpg" alt="hogwarts">
+                                </div>
+                                <p>발로란트 선수들이 사용한다는 키보드, 마우스를 알아보자</p>
+                            </a>
+                        </div> 
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/j7.jpg" alt="battle">
+                                </div>
+                                <p>아시안게임 국대 선수들이 말하는 게이밍 의자</p>
+                            </a>
+                        </div> 
+                   </div>
+               </div>
+            </div>
+        </section>
+        <section class="s6">
+            <div class="center">
+                <div class="title">
+                <h1>이번주 베스트픽!</h1>
+                <a href="#">더보기 <i><img src="img/plus.svg" alt="plus"></i></a>
+            </div>
+            <div class="container">
+                <div class="photo-top">
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/best1.jpg" alt="best1">
+                            </div>
+                            <p>SPIDER-MAN 2</p>
+                        </a>
+                    </div>
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/best2.jpg" alt="best2">
+                            </div>
+                            <p>GRAND THEFT AUTO 5</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="photo-bottom">
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/news3.jpg" alt="best3">
+                            </div>
+                            <p>조폐공사, 2023 LoL 월드 챔피언십 T1 우승 기념메달 출시</p>
+                        </a>
+                    </div>
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/cm1.jpg" alt="best4">
+                            </div>
+                            <p>산나비 준장님 그려봤다</p>
+                        </a>
+                    </div>
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/j8.jpg" alt="best5">
+                            </div>
+                            <p>단점이 없다는 AMD 탑재된 노트북, 단점부터 확인해보자</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-top">
+                <div class="center">
+                    <div class="info">
+                        <ul>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">비즈니싀</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">청소년보호정책</a></li>
+                            <li><a href="#">찾아오시는 길</a></li>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#"><img src="img/youtube.svg" alt="youtube"></a></li>
+                            <li><a href="#"><img src="img/Reddit.svg" alt="Reddit"></a></li>
+                            <li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
+                            <li><a href="#"><img src="img/discord-01.svg" alt="discord"></a></li>
+                            <li><a href="#"><img src="img/facebook.svg" alt="facebook"></a></li>
+                            <li><a href="#"><img src="img/tiktok.svg" alt="tiktok"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="center">
+                    <div class="footer-logo">
+                        <img src="img/logo/black_logo.png" alt="footer-logo">
+                    </div>
+                    <address>
+                        명칭: 주식회사 게임메카 | 등록번호: 경기 아51514 | 등록연월일: 2009. 12. 14 | 제호: 게임메카(Gamemeca)<br>
+                        발행인: 서형준 | 편집인: 강민우 | 발행소: 경기도 성남시 분당구 구미로 9번길 3-4 한국빌딩 3층<br>
+                        발행연월일: 2004 11. 11 | 전화번호: 02 - 6393 - 7700 | E-mail: help@inven.co.kr<br>
+                        <br>
+                        게임메카의 콘텐츠 및 기사는 저작권법의 보호를 받으므로, 무단 전재, 복사, 배포 등을 금합니다.<br>
+                        Copyrightⓒ Gamemeca. All rights reserved.
+                    </address>
+                    <div class="family">
+                        <a href="">패밀리 갤러리<span><img src="img/down_triangle_icon.svg" alt="down_triangle_icon"></span></a>
+                        <div class="sub">
+                            <a href="#"><span>사전 예약 갤러리</span></a>
+                            <a href="#"><span>LIVE 방송 갤러리</span></a>
+                            <a href="#"><span>추천 코스프레 갤러리</span></a>
+                            <a href="#"><span>연예인 갤러리</span></a>
+                            <a href="#"><span>브랜드 파트너 이벤트</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="sitemap">
+            <div class="sitemap-in">
+                <a href="#" class="close"><img src="img/close.svg" alt="close"></a>
+                <div class="sitebox">
+                    <div class="memberbox">
+                        <ul>
+                            <li><a href="#">LOGIN</a></li>
+                            <li><a href="#">SIGNUP</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu1">
+                        <ul>
+                            <li><a href="#">스크랩</a></li>
+                            <li><a href="#">장바구니</a></li>
+                            <li><a href="#">고객문의</a></li>
+                        </ul>
+                    </div> <!-- menu1 -->
+                    <div class="menu2">
+                        <ul>
+                            <li>
+                                <a href="#"><p>스토어</p>
+                                    <i>
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                    </i>
+                                </a>
+                                <ul>
+                                    <li><a href="#">추천 게임</a></li>
+                                    <li><a href="#">인기 게임</a></li>
+                                    <li><a href="#">이 달의 우수 게임</a></li>
+                                    <li><a href="#">한 해의 우수 게임</a></li>
+                                    <li><a href="#">출시 기대작</a></li>
+                                    <li><a href="#">이벤트 중인 게임들</a></li>
+                                    <li><a href="#">콘솔/닌텐도</a></li>
+                                </ul>
+                            </li>
+                            <!-- 추천게임 -->
+                            <li>
+                                <a href="#"><p>게임 뉴스</p>
+                                    <i>
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                    </i>
+                                </a>
+                                <ul>
+                                    <li><a href="#">인기 뉴스</a></li>
+                                    <li><a href="#">회사 뉴스</a></li>
+                                    <li><a href="#">e스포츠<!DOCTYPE html></a></li>
+                                    <li><a href="#">이슈 중인 사람들</a></li>
+                                    <li><a href="#">콘솔/닌텐도 뉴스</a></li>
+                                </ul>
+                            </li>
+                            <!-- 게임뉴스 -->
+                            <li>
+                                <a href="#"><p>커뮤니티</p>
+                                    <i>
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                    </i>
+                                </a>
+                                <ul>
+                                    <li><a href="#">리그오브레전드</a></li>
+                                    <li><a href="#">발로란트</a></li>
+                                    <li><a href="#">로스트아크</a></li>
+                                    <li><a href="#">다른 게임들</a></li>
+                                    <li><a href="#">공지사항/이벤트</a></li>
+                                </ul>
+                            </li>
+                            <!-- 커뮤니티 -->
+                            <li>
+                                <a href="#"><p>장비 꿀팁</p>
+                                    <i>
+                                        <span class="bar1"></span>
+                                        <span class="bar2"></span>
+                                    </i>
+                                </a>
+                                <ul>
+                                    <li><a href="#">가성비 꿀팁!</a></li>
+                                    <li><a href="#">게이밍 컴퓨터 꿀팁!</a></li>
+                                    <li><a href="#">컴퓨터 주변기기 꿀팁!</a></li>
+                                    <li><a href="#">콘솔/닌텐도 꿀팁!</a></li>
+                                    <li><a href="#">기타 꿀팁 정보!</a></li>
+                                </ul>
+                            </li>
+                            <!-- 장비꿀팁 -->
+                        </ul>
+                    </div><!-- menu2 -->
+                    <div class="sns">
+                    <ul>
+                        <li><a href="#"><img src="img/facebool.svg" alt="facebook"></a></li>
+                        <li><a href="#"><img src="img/twitter1.svg" alt="twitter1"></a></li>
+                        <li><a href="#"><img src="img/youtube1.svg" alt="youtube"></a></li>
+                        <li><a href="#"><img src="img/discord1-01.svg" alt="discord"></a></li>
+                    </ul>
+                </div>
+                </div><!-- sitebox -->                    
+            </div> <!-- sitemap -->
+            <div class="sitemap-bg"></div>
+        </div> <!-- sitemap -->
+        <div class="search-area">   
+            <div class="search-bg"></div>     
+        <div class="search-in">
+            <div class="input-area">
+                <input type="search" name="search" placeholder="검색어를 입력해 주세요.">
+                <div class="search-btn">
+                    <button type="button">
+                        <img src="img/8666693_search_icon.svg" alt="search">
+                    </button>
+                </div><!-- search-btn -->
+            </div><!-- input-area -->
+        </div><!-- search-in -->
+    </div><!-- search-area -->
+    </div><!-- wrap -->
+    <div class="top">
+        <a href="#">TOP</a>
+    </div>
+</body>
+</html>
